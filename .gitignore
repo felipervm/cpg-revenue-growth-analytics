@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+
+# Large deterministic generated artifacts (rebuild via scripts)
+data/simulated_cpg_commercial_data.csv.gz
+data/promotion_event_performance.csv
+powerbi_ready/promotion_event_performance.csv
